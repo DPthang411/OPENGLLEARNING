@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\OPENGL.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\OPENGL.dir/objects.a @CMakeFiles\OPENGL.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\OPENGL.dir/objects.a -Wl,--no-whole-archive -o OPENGL.exe -Wl,--out-implib,libOPENGL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OPENGL.dir\linkLibs.rsp
